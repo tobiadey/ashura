@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Virtual environment
+venv/
+ENV/
+
+# Node.js dependencies
+node_modules/
+
+# Editor directories and files
+.vscode/
+*.swp
+*.swo
+.idea/
+*.sublime-workspace

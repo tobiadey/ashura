@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  textarea {
+    margin-bottom: 20px;
+  }
+  
+  #art {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+  }
+  
