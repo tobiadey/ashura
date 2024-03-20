@@ -1,0 +1,3 @@
+Flask==3.0.1
+TextBlob==0.15.3
+black==22.12.0
