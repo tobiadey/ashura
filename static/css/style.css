@@ -1,17 +1,21 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  textarea {
-    margin-bottom: 20px;
-  }
-  
-  #art {
-    margin-top: 20px;
-    width: 400px;
-    height: 400px;
-  }
-  
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#artImage {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+}
+#textInput {
+  width: 300px;
+  margin-bottom: 10px;
+}
+button {
+  cursor: pointer;
+}

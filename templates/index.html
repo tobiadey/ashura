@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generative Art Storyteller</title>
+    <title>Phoenix - Sentiment Based Art Generator</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <script src="{{ url_for('static', filename='js/sketch.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 <body>
-    <textarea id="userText" rows="4" cols="50"></textarea>
-    <button onclick="analyseText()">Generate Art</button>
-    <div id="art"></div>
+    <h2>Enter Your Text</h2>
+    <textarea id="textInput" rows="4" placeholder="Type something..."></textarea><br>
+    <button onclick="generateArt()">Generate Art</button>
+    <img id="artImage" src="" alt="Generated Art Will Appear Here">
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>

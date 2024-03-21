@@ -1,20 +1,21 @@
 # Ashura
 
-**Ashura** is an innovative web application that transforms emotional sentiments from text into beautiful, evolving generative art. Inspired by the mythical bird that rises from its ashes, **Ashura** aims to give visual form to the rebirth and transformation of emotions, creating a dynamic "Sentiment Garden" where each piece of text plants the seed for a unique artistic expression.
+**Ashura** is an innovative web application that creates beautiful, abstract generative art from textual input by analysing its emotional sentiment. Drawing inspiration from the mythological Phoenix(bird), Ashura symbolises the transformation and rebirth of emotions into visual form, offering a unique intersection of technology, art, and psychology.
 
 ## Features
 
-- **Sentiment Analysis**: Leverages advanced Natural Language Processing (NLP) to analyze the emotional tone of user-inputted text.
-- **Generative Art**: Transforms analyzed sentiments into captivating visual art, with each sentiment influencing the art's composition, color, and motion.
-- **Interactive Art Garden**: Allows users to interactively "plant" their sentiments, watching as the garden grows with each new input.
+- **Sentiment Analysis**: Leverages advanced Natural Language Processing (NLP) to analyse the emotional tone of user-inputted text.
+- **Generative Art**: Transforms analysed sentiments into captivating visual art, with each sentiment influencing the art's composition, color, and motion.
 
 ## Getting Started
+
+### Installation
 
 1. **Clone the repository:**
 
 ```
-git clone https://github.com/yourusername/Phoenix.git
-cd Phoenix
+git clone https://github.com/tobiadey/ashura.git
+cd Ashura
 ```
 
 2. **Set up a Python virtual environment:**
@@ -33,8 +34,8 @@ python app.py
 
 ## Usage
 
-- **Input Text**: Simply type or paste any text into the input box on the web page. This could be how you're feeling, a quote you like, or anything else.
+- **Input Text**: On the web application, type or paste any text into the input box. You can input how you're feeling, a memorable quote, or any piece of text that holds emotional significance to you.
 
-- **Generate Art**: Submit your text to see it transformed into a unique piece of generative art, reflecting the emotional sentiment of your input.
+- **Generate Art**: Click the "Generate Art" button to submit your text. The application analyses the emotional sentiment of your text and transforms it into a unique piece of generative art.
 
-- **Interact with the Garden**: Explore the growing garden of sentiments. Each piece of art represents a different emotion, contributing to the garden's diversity.
+- **Output**: The generated art will appear on the webpage.
